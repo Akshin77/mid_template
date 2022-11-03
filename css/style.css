@@ -1,0 +1,207 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* =========== Navbar start ============ */
+.a_navbar {
+    width: 100%;
+    min-height: 80px;
+    float: left;
+    /* background: green; */
+}
+
+.nav_logo {
+    min-width: 25%;
+    min-height: inherit;
+    float: left;
+    /* background: orange; */
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_menu {
+    min-width: 60%;
+    min-height: inherit;
+    float: left;
+    /* background: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-bottom: 2px solid #000;
+}
+
+.nav_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 35px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav_menu ul li:hover {
+    border-bottom: 2px solid #27AE60;
+}
+
+
+
+.nav_menu ul li a {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 1px;
+
+    color: #1F1F24;
+    text-decoration: none;
+}
+
+.zelandiya {
+    width: 15%;
+    min-height: inherit;
+    float: left;
+    background: #253476;
+    backdrop-filter: blur(11.5px);
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+
+.zelandiya p {
+    width: 75%;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+/* =========== Navbar end ============ */
+
+/* =========== Main start ============ */
+
+.a_main {
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    border-radius: 20px;
+    background-image: url("../images/02-gigapixel-scale-2_00x\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.main_content :first-child {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 138%;
+    /* or 52px */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #27AE60;
+}
+
+.main_content :nth-child(2) {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 138%;
+    /* or 52px */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #494949;
+}
+
+/* =========== Main end ============ */
+
+/* =========== Card start ============ */
+
+.a_card {
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 76.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 35px 10px 10px 35px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+.c_content :first-child {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.c_content:last-child{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* or 23px */
+
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.back2{
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 36.png") ;
+}
+
+.back3{
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 77.png") ;
+}
+.back4{
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 78.png") ;
+}
+.back5{
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 95.png") ;
+}
+.back6{
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    url("../images/Rectangle\ 96.png") ;
+}
+
+
+/* =========== Card end ============ */
