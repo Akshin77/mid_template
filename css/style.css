@@ -142,15 +142,15 @@ body {
 
 .a_card {
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
     float: left;
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 76.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
     padding: 35px 10px 10px 35px;
-    margin: 5px 0;
+    margin: 15px 0;
     box-sizing: border-box;
     display: flex;
     align-items: flex-end;
@@ -170,6 +170,7 @@ body {
 }
 
 .c_content:last-child{
+    width:  80%;
     font-family: 'Zilla Slab';
     font-style: normal;
     font-weight: 400;
@@ -182,24 +183,24 @@ body {
 }
 
 .back2{
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 36.png") ;
 }
 
 .back3{
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 77.png") ;
 }
 .back4{
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 78.png") ;
 }
 .back5{
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 95.png") ;
 }
 .back6{
-    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
+    background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%), 
     url("../images/Rectangle\ 96.png") ;
 }
 
