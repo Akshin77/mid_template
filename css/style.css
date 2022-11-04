@@ -22,7 +22,7 @@ body {
 }
 
 .nav_menu {
-    min-width: 60%;
+    min-width: 55%;
     min-height: inherit;
     float: left;
     /* background: red; */
@@ -66,7 +66,7 @@ body {
 }
 
 .zelandiya {
-    width: 15%;
+    width: 20%;
     min-height: inherit;
     float: left;
     background: #253476;
